@@ -1,0 +1,46 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  /* biar ditengah */
+  font-family: Tahoma;
+}
+
+/* header */
+#header h1 {
+  text-align: center;
+}
+
+/* navbar */
+/* highlight */
+#nav,
+#highlight,
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #efefef;
+  margin: 10px;
+}
+
+#nav li {
+  display: inline;
+  padding: 5px;
+}
+
+#highlight img {
+  width: 20%;
+}
+
+/* kolom content */
+.article {
+  float: left;
+  background-color: #efefef;
+  width: 280px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#content {
+  height: 100%;
+  overflow: auto;
+}
